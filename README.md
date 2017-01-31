@@ -19,3 +19,10 @@ ACTIVITY_NAME=".MainActivity"
 adb shell am start -n "${PACKAGE_NAME}/${ACTIVITY_NAME}"
 ```
 
+A couple of potentially useful commands to uninstall or reinstall the APK with **adb**.
+
+```sh
+adb uninstall "${PACKAGE_NAME}"
+adb install -r app/build/outputs/apk/app-debug.apk
+```
+
