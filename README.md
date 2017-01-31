@@ -1,6 +1,6 @@
 # HelloKotlin
 
-A "Hello World" Android APK that uses Kotlin instead of Java.
+A "Hello World" Android project that uses Kotlin instead of Java.
 
 From the command line, do something like this to make sure that repository is in working order.
 
