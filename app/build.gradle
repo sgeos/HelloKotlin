@@ -96,4 +96,6 @@ spoon {
     grantAllPermissions = true
     adbTimeout = 60
 }
-tasks.spoon.dependsOn 'createDebugCoverageReport'
+
+// Do not do this because the coverage report can not generate directories that do not yet exist.
+//tasks.spoon.dependsOn 'createDebugCoverageReport'
